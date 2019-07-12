@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Co-Star-App/View/UserSlide.swift"
+            timestampString = "584570409.631855"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
+            landmarkName = "awakeFromNib()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Co-Star-App/View/UserSlide.swift"
+            timestampString = "584570409.631942"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "18"
+            endingLineNumber = "18"
+            landmarkName = "UserSlide"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Co_Star_App.UserSlide.viewModel.getter : Swift.Optional&lt;Co_Star_App.UserViewModel&gt;"
+                  moduleName = "Co-Star-App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/robertbrennan/Desktop/Co-Star-App/Co-Star-App/View/UserSlide.swift"
+                  timestampString = "584515238.759185"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "114">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Co_Star_App.UserSlide.viewModel.setter : Swift.Optional&lt;Co_Star_App.UserViewModel&gt;"
+                  moduleName = "Co-Star-App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/robertbrennan/Desktop/Co-Star-App/Co-Star-App/View/UserSlide.swift"
+                  timestampString = "584515238.761065"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "128">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Co_Star_App.UserSlide.viewModel.modify : Swift.Optional&lt;Co_Star_App.UserViewModel&gt;"
+                  moduleName = "Co-Star-App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/robertbrennan/Desktop/Co-Star-App/Co-Star-App/View/UserSlide.swift"
+                  timestampString = "584515238.762875"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "18">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Co_Star_App.UserSlide.viewModel.modify : Swift.Optional&lt;Co_Star_App.UserViewModel&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "Co-Star-App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/robertbrennan/Desktop/Co-Star-App/Co-Star-App/View/UserSlide.swift"
+                  timestampString = "584515238.764841"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Co_Star_App.UserSlide.init(frame: __C.CGRect) -&gt; Co_Star_App.UserSlide"
+                  moduleName = "Co-Star-App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/robertbrennan/Desktop/Co-Star-App/Co-Star-App/View/UserSlide.swift"
+                  timestampString = "584515238.766655"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "345">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Co_Star_App.UserSlide.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;Co_Star_App.UserSlide&gt;"
+                  moduleName = "Co-Star-App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/robertbrennan/Desktop/Co-Star-App/Co-Star-App/View/UserSlide.swift"
+                  timestampString = "584515238.768414"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "333">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Co-Star-App/ViewControllers/ViewController.swift"
+            timestampString = "584570409.6320159"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "19"
+            endingLineNumber = "19"
+            landmarkName = "ViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Co_Star_App.ViewController.userViewModel.getter : Swift.Optional&lt;Co_Star_App.UserViewModel&gt;"
+                  moduleName = "Co-Star-App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/robertbrennan/Desktop/Co-Star-App/Co-Star-App/ViewControllers/ViewController.swift"
+                  timestampString = "584501950.1088589"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "114">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Co_Star_App.ViewController.userViewModel.setter : Swift.Optional&lt;Co_Star_App.UserViewModel&gt;"
+                  moduleName = "Co-Star-App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/robertbrennan/Desktop/Co-Star-App/Co-Star-App/ViewControllers/ViewController.swift"
+                  timestampString = "584501950.110738"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "128">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Co_Star_App.ViewController.userViewModel.modify : Swift.Optional&lt;Co_Star_App.UserViewModel&gt;"
+                  moduleName = "Co-Star-App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/robertbrennan/Desktop/Co-Star-App/Co-Star-App/ViewControllers/ViewController.swift"
+                  timestampString = "584501950.112535"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "18">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Co_Star_App.ViewController.userViewModel.modify : Swift.Optional&lt;Co_Star_App.UserViewModel&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "Co-Star-App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/robertbrennan/Desktop/Co-Star-App/Co-Star-App/ViewControllers/ViewController.swift"
+                  timestampString = "584501950.114329"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Co_Star_App.ViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; Co_Star_App.ViewController"
+                  moduleName = "Co-Star-App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/robertbrennan/Desktop/Co-Star-App/Co-Star-App/ViewControllers/ViewController.swift"
+                  timestampString = "584501950.116127"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "423">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Co_Star_App.ViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;Co_Star_App.ViewController&gt;"
+                  moduleName = "Co-Star-App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/robertbrennan/Desktop/Co-Star-App/Co-Star-App/ViewControllers/ViewController.swift"
+                  timestampString = "584501950.117896"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "343">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Co-Star-App/Controller/ViewController.swift"
+            timestampString = "584609234.3155349"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "82"
+            endingLineNumber = "82"
+            landmarkName = "ViewController"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

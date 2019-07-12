@@ -1,0 +1,488 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		19E3BF035976EB938B123341 /* Pods_Co_Star_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED15AF73F9EBAA4409E62FDA /* Pods_Co_Star_App.framework */; };
+		6894AC4522D6893A003D2FD9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6894AC4422D6893A003D2FD9 /* AppDelegate.swift */; };
+		6894AC4722D6893A003D2FD9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6894AC4622D6893A003D2FD9 /* ViewController.swift */; };
+		6894AC4A22D6893A003D2FD9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6894AC4822D6893A003D2FD9 /* Main.storyboard */; };
+		6894AC4C22D6893B003D2FD9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6894AC4B22D6893B003D2FD9 /* Assets.xcassets */; };
+		6894AC4F22D6893B003D2FD9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6894AC4D22D6893B003D2FD9 /* LaunchScreen.storyboard */; };
+		6894AC5C22D68A92003D2FD9 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6894AC5B22D68A92003D2FD9 /* UserModel.swift */; };
+		6894AC6022D69B9F003D2FD9 /* UserSlide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6894AC5F22D69B9F003D2FD9 /* UserSlide.swift */; };
+		6894AC6222D69BC7003D2FD9 /* UserSlide.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6894AC6122D69BC7003D2FD9 /* UserSlide.xib */; };
+		6894AC6422D6A1CA003D2FD9 /* ZodiacSlide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6894AC6322D6A1CA003D2FD9 /* ZodiacSlide.swift */; };
+		6894AC6622D6A1D8003D2FD9 /* ZodiacSlide.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6894AC6522D6A1D8003D2FD9 /* ZodiacSlide.xib */; };
+		6894AC6822D6B5B5003D2FD9 /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6894AC6722D6B5B4003D2FD9 /* UserViewModel.swift */; };
+		68A2311522D85497009994EC /* HelperFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68A2311422D85497009994EC /* HelperFunctions.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0A160AB50D7ACE256FA3F1E9 /* Pods-Co-Star-App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Co-Star-App.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Co-Star-App/Pods-Co-Star-App.debug.xcconfig"; sourceTree = "<group>"; };
+		6894AC4122D68939003D2FD9 /* Co-Star-App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Co-Star-App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6894AC4422D6893A003D2FD9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6894AC4622D6893A003D2FD9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6894AC4922D6893A003D2FD9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6894AC4B22D6893B003D2FD9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6894AC4E22D6893B003D2FD9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6894AC5022D6893B003D2FD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6894AC5B22D68A92003D2FD9 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		6894AC5F22D69B9F003D2FD9 /* UserSlide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSlide.swift; sourceTree = "<group>"; };
+		6894AC6122D69BC7003D2FD9 /* UserSlide.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserSlide.xib; sourceTree = "<group>"; };
+		6894AC6322D6A1CA003D2FD9 /* ZodiacSlide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZodiacSlide.swift; sourceTree = "<group>"; };
+		6894AC6522D6A1D8003D2FD9 /* ZodiacSlide.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ZodiacSlide.xib; sourceTree = "<group>"; };
+		6894AC6722D6B5B4003D2FD9 /* UserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
+		68A2311422D85497009994EC /* HelperFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelperFunctions.swift; sourceTree = "<group>"; };
+		D283B1259657B6AF6B45B0F2 /* Pods-Co-Star-App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Co-Star-App.release.xcconfig"; path = "Pods/Target Support Files/Pods-Co-Star-App/Pods-Co-Star-App.release.xcconfig"; sourceTree = "<group>"; };
+		ED15AF73F9EBAA4409E62FDA /* Pods_Co_Star_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Co_Star_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6894AC3E22D68939003D2FD9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19E3BF035976EB938B123341 /* Pods_Co_Star_App.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6894AC3822D68939003D2FD9 = {
+			isa = PBXGroup;
+			children = (
+				6894AC4322D6893A003D2FD9 /* Co-Star-App */,
+				6894AC4222D68939003D2FD9 /* Products */,
+				97742BDA7116B79B6462800C /* Pods */,
+				E22E3345F79451C41CB066E9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6894AC4222D68939003D2FD9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6894AC4122D68939003D2FD9 /* Co-Star-App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6894AC4322D6893A003D2FD9 /* Co-Star-App */ = {
+			isa = PBXGroup;
+			children = (
+				6894AC5922D68A0D003D2FD9 /* AppDelegate */,
+				6894AC5A22D68A22003D2FD9 /* Controller */,
+				6894AC5622D68980003D2FD9 /* ViewModel */,
+				6894AC5822D6899A003D2FD9 /* Model */,
+				6894AC5E22D68D3C003D2FD9 /* Storyboards */,
+				6894AC4B22D6893B003D2FD9 /* Assets.xcassets */,
+				6894AC5022D6893B003D2FD9 /* Info.plist */,
+			);
+			path = "Co-Star-App";
+			sourceTree = "<group>";
+		};
+		6894AC5622D68980003D2FD9 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				6894AC6722D6B5B4003D2FD9 /* UserViewModel.swift */,
+				68A2311422D85497009994EC /* HelperFunctions.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		6894AC5822D6899A003D2FD9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6894AC5B22D68A92003D2FD9 /* UserModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6894AC5922D68A0D003D2FD9 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				6894AC4422D6893A003D2FD9 /* AppDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		6894AC5A22D68A22003D2FD9 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6894AC4622D6893A003D2FD9 /* ViewController.swift */,
+				6894AC5F22D69B9F003D2FD9 /* UserSlide.swift */,
+				6894AC6122D69BC7003D2FD9 /* UserSlide.xib */,
+				6894AC6322D6A1CA003D2FD9 /* ZodiacSlide.swift */,
+				6894AC6522D6A1D8003D2FD9 /* ZodiacSlide.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		6894AC5E22D68D3C003D2FD9 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				6894AC4D22D6893B003D2FD9 /* LaunchScreen.storyboard */,
+				6894AC4822D6893A003D2FD9 /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		97742BDA7116B79B6462800C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0A160AB50D7ACE256FA3F1E9 /* Pods-Co-Star-App.debug.xcconfig */,
+				D283B1259657B6AF6B45B0F2 /* Pods-Co-Star-App.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E22E3345F79451C41CB066E9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED15AF73F9EBAA4409E62FDA /* Pods_Co_Star_App.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6894AC4022D68939003D2FD9 /* Co-Star-App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6894AC5322D6893B003D2FD9 /* Build configuration list for PBXNativeTarget "Co-Star-App" */;
+			buildPhases = (
+				9A5FA40B1819362FA999C9D9 /* [CP] Check Pods Manifest.lock */,
+				6894AC3D22D68939003D2FD9 /* Sources */,
+				6894AC3E22D68939003D2FD9 /* Frameworks */,
+				6894AC3F22D68939003D2FD9 /* Resources */,
+				8808CB26E1BE7D928A10AF29 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Co-Star-App";
+			productName = "Co-Star-App";
+			productReference = 6894AC4122D68939003D2FD9 /* Co-Star-App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6894AC3922D68939003D2FD9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = Creatility;
+				TargetAttributes = {
+					6894AC4022D68939003D2FD9 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 6894AC3C22D68939003D2FD9 /* Build configuration list for PBXProject "Co-Star-App" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6894AC3822D68939003D2FD9;
+			productRefGroup = 6894AC4222D68939003D2FD9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6894AC4022D68939003D2FD9 /* Co-Star-App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6894AC3F22D68939003D2FD9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6894AC6622D6A1D8003D2FD9 /* ZodiacSlide.xib in Resources */,
+				6894AC4F22D6893B003D2FD9 /* LaunchScreen.storyboard in Resources */,
+				6894AC4C22D6893B003D2FD9 /* Assets.xcassets in Resources */,
+				6894AC6222D69BC7003D2FD9 /* UserSlide.xib in Resources */,
+				6894AC4A22D6893A003D2FD9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8808CB26E1BE7D928A10AF29 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Co-Star-App/Pods-Co-Star-App-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ReactiveCocoa/ReactiveCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/ReactiveSwift/ReactiveSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactiveCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactiveSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Co-Star-App/Pods-Co-Star-App-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9A5FA40B1819362FA999C9D9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Co-Star-App-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6894AC3D22D68939003D2FD9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68A2311522D85497009994EC /* HelperFunctions.swift in Sources */,
+				6894AC6422D6A1CA003D2FD9 /* ZodiacSlide.swift in Sources */,
+				6894AC4722D6893A003D2FD9 /* ViewController.swift in Sources */,
+				6894AC5C22D68A92003D2FD9 /* UserModel.swift in Sources */,
+				6894AC6822D6B5B5003D2FD9 /* UserViewModel.swift in Sources */,
+				6894AC6022D69B9F003D2FD9 /* UserSlide.swift in Sources */,
+				6894AC4522D6893A003D2FD9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6894AC4822D6893A003D2FD9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6894AC4922D6893A003D2FD9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6894AC4D22D6893B003D2FD9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6894AC4E22D6893B003D2FD9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6894AC5122D6893B003D2FD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6894AC5222D6893B003D2FD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6894AC5422D6893B003D2FD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A160AB50D7ACE256FA3F1E9 /* Pods-Co-Star-App.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MZW2GEA93T;
+				INFOPLIST_FILE = "Co-Star-App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "co.creatility.Co-Star-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6894AC5522D6893B003D2FD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D283B1259657B6AF6B45B0F2 /* Pods-Co-Star-App.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MZW2GEA93T;
+				INFOPLIST_FILE = "Co-Star-App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "co.creatility.Co-Star-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6894AC3C22D68939003D2FD9 /* Build configuration list for PBXProject "Co-Star-App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6894AC5122D6893B003D2FD9 /* Debug */,
+				6894AC5222D6893B003D2FD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6894AC5322D6893B003D2FD9 /* Build configuration list for PBXNativeTarget "Co-Star-App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6894AC5422D6893B003D2FD9 /* Debug */,
+				6894AC5522D6893B003D2FD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6894AC3922D68939003D2FD9 /* Project object */;
+}
